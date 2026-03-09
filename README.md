@@ -1,40 +1,23 @@
 # P5X Damage Calculator
 
-Uma ferramenta para ajudar a calcular o dano final no jogo Persona 5: The Phantom X (P5X). Desenvolvido para facilitar a otimização de builds e estratégias de combate.
+Uma ferramenta simples para calcular o dano final no jogo Persona 5: The Phantom X (P5X). Feito para ajudar a otimizar builds e testar estratégias.
 
-## 🚀 Como Executar Localmente
+## 🚀 Como Usar
 
-**Pré-requisitos:** Node.js instalado.
+1.  **Instale as dependências:** `npm install`
+2.  **Rode o projeto:** `npm run dev`
+3.  Acesse `http://localhost:3000` no seu navegador.
 
-1.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
-2.  **Inicie o servidor de desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
-3.  Abra o navegador em `http://localhost:3000`.
+## 🌐 Deploy
 
-## 🌐 Publicação e Deploy
+O projeto está configurado para deploy automático no **Vercel**. 
 
-Este projeto está pronto para ser hospedado no **Vercel** ou **Netlify**.
-
-### Passo 1: Publicar no GitHub
-1. Crie um novo repositório no seu GitHub.
-2. Siga as instruções para "push an existing repository from the command line":
-   ```bash
-   git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-### Passo 2: Hospedar no Vercel
-1. Vá para [vercel.com](https://vercel.com/) e faça login com seu GitHub.
-2. Clique em "Add New" -> "Project".
-3. Importe o repositório que você acabou de criar.
-4. Clique em "Deploy".
+Para subir o seu:
+1. Crie um repo no GitHub.
+2. Conecte ao Vercel e importe o projeto.
+3. Pronto!
 
 ---
 Desenvolvido para a comunidade P5X.
+
 
